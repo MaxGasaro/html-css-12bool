@@ -1,0 +1,25 @@
+.container, .container-fluid {
+    margin-bottom: 10px;
+}
+
+.box {
+    background-color: #006cfa;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 0.6rem;
+    padding: 5px;
+    text-align: center;
+    line-height: 30px;
+    min-height: 30px;
+}
+
+.box-nested {
+    background-color: #00e165;
+    min-height: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #006cfa;
+    font-size: 0.6rem;
+}
