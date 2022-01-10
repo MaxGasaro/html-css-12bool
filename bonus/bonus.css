@@ -1,0 +1,60 @@
+.container, .container-fluid {
+    margin-bottom: 10px;
+}
+
+.box {
+    background-color: #006cfa;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 0.6rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.box-nested {
+    background-color: #00e165;
+    min-height: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #006cfa;
+    font-size: 0.6rem;
+}
+
+.big {
+    min-height: 60px;
+    background-color: #006cfa;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.center {
+    justify-content: center;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.top {
+    align-items: flex-start;
+}
+
+.middle {
+    align-items: center;
+}
+
+.bottom {
+    align-items: flex-end;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.between {
+    justify-content: space-between;
+}
